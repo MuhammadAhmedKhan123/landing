@@ -51,15 +51,15 @@ export default function page() {
       
       <div className=' flex-col   w-56 text-center lg:mr-6 lm:mb-10 mm:mb-10 smm:mb-10 mr-5'>
        <div className='  ml-[75px] mt-3 w-20 h-20 bg-[#ffd8e1] rounded-full'><span className=' flex  justify-center  pt-2  text-red-500 text-6xl'><MdEqualizer/></span></div>
-       <div><h1 className=' text-xl font-medium'>High Quality</h1>
-       <p className=' '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+       <div><h1 className=' text-xl font-medium text-black'>High Quality</h1>
+       <p className='text-black '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
        </div>      
       </div>
 
       <div className=' flex-col   w-56 text-center lg:mr-3 lg:ml-0 lm:ml-0 mm:ml-0 smm:ml-0 ml-5'>
       <div className='  ml-[75px] mt-3 w-20 h-20 bg-[#ffd8e1] rounded-full'><span className=' flex  justify-center  pt-2  text-red-500 text-6xl'><FaUsers/></span></div>
-      <div><h1 className=' text-xl font-medium'>User Friendly</h1>
-      <p className=' '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+      <div><h1 className='text-black text-xl font-medium'>User Friendly</h1>
+      <p className='text-black '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
       </div>      
      </div>
       
@@ -69,15 +69,15 @@ export default function page() {
       
       <div className=' flex-col   w-56 text-center lg:ml-3 lg:mr-0 mr-5 lm:mb-10 mm:mb-10 smm:mb-10 '>
        <div className='  ml-[75px] mt-3 w-20 h-20 bg-[#ffd8e1] rounded-full'><span className=' flex  justify-center  pt-2  text-red-500 text-6xl'><HiTemplate/></span></div>
-       <div><h1 className=' text-xl font-medium'>Awesome Design</h1>
-       <p className=' '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+       <div><h1 className='text-black  text-xl font-medium'>Awesome Design</h1>
+       <p className='text-black  '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
        </div>      
       </div>
       
       <div className=' flex-col   w-56 text-center lg:ml-6 ml-5 lm:ml-0 mm:ml-0 smm:ml-0'>
        <div className='  ml-[75px] mt-3 w-20 h-20 bg-[#ffd8e1] rounded-full'><span className=' flex  justify-center  pt-2  text-red-500 text-6xl'><FaLaptopCode/></span></div>
-       <div><h1 className=' text-xl font-medium'>Latest Technology</h1>
-       <p className=' '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+       <div><h1 className='text-black  text-xl font-medium'>Latest Technology</h1>
+       <p className='text-black  '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
        </div>      
       </div>
       
@@ -93,7 +93,7 @@ export default function page() {
 
 
 
-       <div id='about' className=' flex   justify-center relative top-[-1000px] lg:top-[-1100px] smm:top-[-1300px] mm:top-[-1200px] lm:top-[-1260px] st:top-[-1300px] items-center  bg-[#F7F8F8] smm:h-[760px] mm:h-[760px] lm:h-[820px] st:h-[880px] mt:h-[880px] mt:mt-14 h-[600px] w-full'>
+       <div id='about' className=' text-black  flex   justify-center relative top-[-1000px] lg:top-[-1100px] smm:top-[-1300px] mm:top-[-1200px] lm:top-[-1260px] st:top-[-1300px] items-center  bg-[#F7F8F8] smm:h-[760px] mm:h-[760px] lm:h-[820px] st:h-[880px] mt:h-[880px] mt:mt-14 h-[600px] w-full'>
         
         <div className=' flex mt:flex-col st:flex-col lm:flex-col mm:flex-col smm:flex-col  '>
         <div className=' smm:w-[260px] mm:w-[290px] lm:w-[360px]  st:w-[450px] mt:w-[550px] lt:w-[300px]  md:w-[300px] lg:w-[450px] md:mr-6 lt:mr-3 st:ml-28  mt:ml-52 st:pb-4 mt:pb-4'><img src='./pics/pic2.png'></img></div>
@@ -127,7 +127,7 @@ export default function page() {
         
           
       <div className='font-mono text-xl text-red-500 mb-3 lm:text-center mm:text-center smm:text-center'>Digital</div>
-      <div className=' mb-8 flex lm:justify-center lm:text-center mm:text-center smm:text-center'><h1>Lorem Ipsum is  dummy text of the printing and typesetting industry.</h1></div>
+      <div className=' mb-8 flex lm:justify-center lm:text-center mm:text-center smm:text-center text-red-500'><h1>Lorem Ipsum is  dummy text of the printing and typesetting industry.</h1></div>
       <div className=' flex lm:justify-center mm:justify-center smm:justify-center w-full '>
         <li className='w-10 h-10 rounded-full bg-red-500 text-xl flex
          justify-center items-center mr-2'><BsFacebook/></li>
@@ -142,7 +142,7 @@ export default function page() {
       
       </div>
 
-      <div className='md:mt-44 mt-52 mt:mt-40 st:mt-40 flex smm:justify-center mm:justify-center lm:justify-center relative smm:top-[-180px] lm:top-[-180px] mm:top-[-180px]'>
+      <div className='text-red-500 md:mt-44 mt-52 mt:mt-40 st:mt-40 flex smm:justify-center mm:justify-center lm:justify-center relative smm:top-[-180px] lm:top-[-180px] mm:top-[-180px]'>
         Made by:  <a href='https://github.com/MuhammadAhmedKhan123'> Muhammad Ahmed Khan</a>
       </div>
       </div> 
